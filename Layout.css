@@ -1,0 +1,388 @@
+body
+{
+    padding:0px;
+    margin:0px;
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+    width: 100%;
+}
+/* chỉnh header */
+#A1 #logo
+{
+    position: relative;
+    top: 5px;
+    left: 160px;
+    width: 180px;
+}
+#A1 #logo:hover
+{
+    width: 250px;
+}
+#A1
+{
+    width: auto;
+    height: auto;
+    background-color: rgb(136, 136, 136);
+}
+
+#A1 > #a1
+{
+    position: absolute;
+    top: 10px;
+    left: 150px;  
+    font-size: 50px;
+    text-shadow: 3px 3px 2px  rgb(80, 56, 56);
+    color: black;
+    font-style: italic;
+    display: block;
+}
+#A1 > #a2
+{
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    font-size: 20px;
+}
+#A1 > #a2 > img
+{
+    vertical-align:  bottom;
+}
+#a3
+{
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    letter-spacing: 20px;
+}
+#a3 > a:hover    
+{
+    cursor: pointer;
+    color: red;
+}
+/* chỉnh nav */
+nav
+{
+    display: flex;
+}
+nav > li
+{
+    background-color: rgb(68, 68, 68) ;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    position: relative;
+    
+}
+nav > li > a
+{
+    display: block;
+    color: rgba(255, 255, 255, 0.801);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 10px;
+    text-align: center;
+
+}
+nav > li > a:hover
+{
+    font-size: 25px;
+    background-color: rgb(97, 54, 54);
+    border-bottom:5px double rgb(175, 34, 34);
+    cursor: pointer;
+}
+/* chỉnh menu con mục sản phẩm */
+#b1
+{
+    position: absolute;
+    right: 0;
+    top: 34px;
+    width: 100%;
+    display: none;
+    z-index: 2;
+}
+#b1 > li
+{
+    background-color: rgb(68, 68, 68) ; 
+    list-style: none;
+    width: auto;
+    border-bottom:0.5px solid black;
+    border-top:1px solid black;
+}
+#b1 > li > a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+#b1 > li > a:hover
+{
+    font-size: 22px;
+    background-color: rgb(97, 54, 54);  
+}
+/* chỉnh menu con mục sản phẩm b2 */
+#b2
+{
+    position: absolute;
+    right: 0;
+    top: 34px;
+    width: 100%;
+    display: none;
+    z-index: 2;
+}
+#b2 > li
+{
+    background-color: rgb(68, 68, 68) ;
+    list-style: none;
+    width: auto;
+    border-bottom:0.5px solid black;
+    border-top:1px solid black;
+}
+#b2 > li > a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+#b2 > li > a:hover
+{
+    font-size: 22px;
+    background-color: rgb(97, 54, 54);  
+}
+/* chỉnh hiển thị menu mục sản phẩm */
+
+nav > li:hover > #b1
+{
+    display: block;
+}
+nav > li:hover > #b2
+{
+    display: block;
+}
+/* Article ----------------------------- */
+article
+{
+   height: 1750px;
+   width: 100%;
+   margin: 0px;
+}
+.bx-wrapper {
+    border: none !important;
+}
+.bg1 {
+    background: url(Images/10.jpg);
+}
+.bg2 {
+    background: url(Images/10.1.jpg);
+}
+
+.D1
+{
+    height: 700px;
+    color: white;
+   
+}
+#d1 > h4
+{
+    margin: 0px;
+    font-size: 45px;
+
+}
+#d1 > h1
+{
+    font-size: 40px;
+}
+#d1 > p
+{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#d1
+{
+    position: relative;
+    left: 200px;
+    top: 200px;
+    width: 750px ;
+}
+.d2 
+{
+    font-size: 25px;
+    padding: 18px;
+    border-radius: 8px;
+    border: 1px;
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+} 
+.d2:hover
+{
+    background: #C89979 ;
+    color: #fff;
+    border: solid 2px #C89979
+}
+
+
+
+.D2 
+{
+    display: flex;
+    color: white;
+    margin: 100px;
+    gap: 50px;
+    justify-content: center;
+    
+}
+
+.Trend1
+{
+    background: url(images/11.jpg);
+    width: 900px;
+    height: 400px;
+}
+.Trend2 
+{
+    background: url(Images/12.jpg);
+    width: 900px;
+    height: 400px;
+    
+}
+
+.D2  h4
+{
+    font-size: 35px;
+    position: relative;
+    left: 50px;
+}
+.D2 h1
+{
+    font-size: 30px;
+    position: relative;
+    left: 60px;
+}
+.D2 hr
+{
+    width: 300px;
+    position: relative;
+    right: 200px;
+}
+.D2 a
+{
+    text-decoration: none;
+    color: white;
+}
+.D2 a h1:hover
+{
+    font-size: 35px;
+    color: brown;
+}
+/* San Pham ---------------------------- */
+.Colum1
+{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.colum
+{
+    width: 15%; 
+    height: 330px;
+    border: 1px solid rgb(183, 98, 98);
+    text-align: center;
+}
+.colum #img1
+{
+    position: absolute;
+    width: 150px;
+    top: -20px;
+    right: 250px
+}.colum #img2
+{
+    position: absolute;
+    width: 150px;
+    top: -20px;
+    right: 600px
+}
+.Ten
+{
+    color: rgb(78, 87, 95);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.colum img 
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.colum img:hover
+{
+    width: 71%;
+}
+.Gia 
+{
+    color:  #C89979;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Gia del
+{
+    color: rgb(214, 15, 15);
+    margin-right: 20px;
+}
+
+.bx-wrapper.slideSp {
+    border: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* Footer ----------------------------- */
+footer
+{
+    height: auto;
+    background-color:  rgb(136, 136, 136);
+}
+.C1 
+{
+    padding-left: 50px;
+    display: flex;
+}
+.C1 > ul > li > a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 50px;
+}
+.C1 > ul > li > a:hover
+{
+    color: rgb(64, 64, 175);
+}
+.C1 > ul > li 
+{
+    list-style: none;  
+  
+}
+.C1 > ul > h3
+{
+    font-size: 23px;
+}
+.C1 > ul
+{
+    margin: 0px 40px;
+}
+.c4
+{
+    padding-left: 138px;
+    
+}
+.c4 > h3
+{
+    font-size: 25px;
+}
+#c2
+{
+    position: relative;
+    left: 500px;
+}
